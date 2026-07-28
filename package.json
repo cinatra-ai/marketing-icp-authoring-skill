@@ -1,0 +1,17 @@
+{
+  "name": "@cinatra-ai/marketing-icp-authoring-skill",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "description": "Authors a Marketing Ideal Customer Profile (ICP) artifact from user-supplied company context. Used by the chat-create-artifact skill when the user asks to create an ICP. Extracted from @cinatra-ai/marketing-icp-artifact (cinatra#2090).",
+  "type": "module",
+  "files": [
+    "skills"
+  ],
+  "cinatra": {
+    "apiVersion": "cinatra.ai/v1",
+    "kind": "skill",
+    "displayName": "Marketing ICP Authoring Skill",
+    "skillRole": "injectable",
+    "dependencies": []
+  }
+}
